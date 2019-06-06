@@ -3,6 +3,7 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/HTML-Code-Demos/
+    overwrite: purge
 hooks:
   BeforeInstall:
     - location: code/before_install
