@@ -1,5 +1,3 @@
-rm -rf /var/www/html/HTML-Code-Demos/*
-rm -rf /var/www/html/HTML-Code-Demos/.gitignore
 apt update
 apt install -y apache2
 /etc/init.d/apache2 restart
