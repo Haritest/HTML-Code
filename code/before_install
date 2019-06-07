@@ -1,3 +1,4 @@
+rm -rf /var/www/html/HTML-Code-Demos/*
 apt update
 apt install -y apache2
 /etc/init.d/apache2 restart
